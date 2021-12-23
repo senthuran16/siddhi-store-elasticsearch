@@ -143,6 +143,11 @@
                 <artifactId>gson</artifactId>
                 <version>${gson.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-core</artifactId>
+                <version>${fasterxml.jackson.core.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
     <scm>
@@ -185,6 +190,7 @@
         <elasticsearch.version>7.16.2</elasticsearch.version>
         <elasticsearch.version.range>[7.0.0,8.0.0)</elasticsearch.version.range>
         <joda.time.version>2.9.9</joda.time.version>
+        <fasterxml.jackson.core.version>2.10.0</fasterxml.jackson.core.version>
         <lucene.core.version>7.2.1</lucene.core.version>
         <http.asyncc.lient.version>4.1.2</http.asyncc.lient.version>
         <http.nio.version>4.4.5</http.nio.version>
