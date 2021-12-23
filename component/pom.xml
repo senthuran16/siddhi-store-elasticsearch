@@ -274,7 +274,7 @@
                             org.elasticsearch.*,
                             org.apache.http.*,
                             org.apache.lucene.*,
-                            org.apache.logging.log4j.*,
+                            !org.apache.logging.log4j.*,
                             org.joda.time.*,
                             com.carrotsearch.hppc.*,
                             org.apache.commons.codec.*,
