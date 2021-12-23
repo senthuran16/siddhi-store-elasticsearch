@@ -271,7 +271,7 @@
                             org.elasticsearch.*;version="${elasticsearch.version.range}",
                             org.apache.http.*,
                             org.apache.lucene.*,
-                            org.apache.logging.log4j.*,
+                            !org.apache.logging.log4j.*,
                             org.apache.commons.logging.*,
                             org.joda.time.*,
                             io.siddhi.core.*;version="${siddhi.version.range}",
